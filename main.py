@@ -124,10 +124,8 @@ animals = [camel, lion, deer, goose, bat, rabbit]
 
 # Code for user interface
 while True:
-    habitat = input("Please enter the number of the habitat you would like to view: ")
-    if habitat == "exit":
-        print("See you later!")
+    habitat = input('Please enter the number of the habitat you would like to view: ')
+    if habitat == 'exit':
+        print('See you later!')
         break
-    else:
-        habitat = int(habitat)
-        print(animals[habitat])
+    print(animals[int(habitat)])

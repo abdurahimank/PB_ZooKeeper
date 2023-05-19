@@ -1,4 +1,5 @@
-# Stage 4/4: Sustainable care <3
+# Project: Zookeeper (Python)
+# Stage 3/4: What's inside?
 camel = r"""
 Switching on the camera in the camel habitat...
  ___.-''''-.
@@ -119,10 +120,11 @@ Switching on the camera in the rabbit habitat...
  ]\      _\    /"\
 (" ~----( ~   Y.  )
 It looks like we will soon have more rabbits!"""
+
+
+# write your code here
 zoo = [camel, lion, deer, goose, bat, rabbit]
-while True:
-    habitat = input("Please enter the number of the habitat you would like to view: ")
-    if habitat == "exit":
-        print("See you later!")
-        break
-    print(zoo[int(habitat)])
+habitat = int(input("Please enter the number of the habitat you would like to view: "))
+print(zoo[habitat])
+print("""---
+You've reached the end of the program. To check another habitat, please restart the watcher.""")

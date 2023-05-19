@@ -13,3 +13,10 @@ This app/ Website helps to give a detailed description of the animals in a zoo. 
 * It can also include ticket details.
 * Online Ticket booking facilities.
 * etc.
+
+## References
+1. [Hyperskill - Jetbrains Academy](https://hyperskill.org/projects/98) <br>
+    a. [Stage 1](https://hyperskill.org/projects/98/stages/539/implement) <br>
+    b. [Stage 2](https://hyperskill.org/projects/98/stages/540/implement) <br>
+    c. [Stage 3](https://hyperskill.org/projects/98/stages/541/implement) <br>
+    d. [Stage 4](https://hyperskill.org/projects/98/stages/542/implement)
